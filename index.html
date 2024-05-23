@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - 360° Degrees</title>
+    <link rel="icon" type="image/x-icon" href="image/pizza.png">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bg-orange {
+            background-color: orange !important;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: white;
+        }
+        footer {
+            /* position: fixed; */
+            bottom: 0;
+            width: 100%;
+        }
+        /* body {
+            margin-bottom: 60px; 
+        } */
+        .jumbotron {
+            background: url('image/Pizza-3007395.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .background {
+            background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+            padding: 10px; /* Add padding to space text from background */
+            border-radius: 10px; /* Add border-radius for rounded corners */
+        }
+        .footer-button {
+            background-color: rgb(215, 140, 0);
+            border-color:  rgb(215, 140, 0);
+            width: 100%; /* Make button full width */
+        }
+        .footer-button:hover {
+            background-color: #bc6a00;
+            border-color: #bc6a00;
+        }
+        .card {
+            margin-bottom: 20px !important; /* Add margin between cards */
+            /* height: 100%;  */
+        }
+        .card-img-top {
+            height: 200px; /* Set a fixed height for card images */
+            object-fit: cover; /* Ensure images cover the entire space */
+        }
+        .card-body {
+            display: flex; /* Use flexbox for button alignment */
+            flex-direction: column; /* Align button below other content */
+            justify-content: space-between; /* Space evenly between content and button */
+            height: 100%; /* Ensure card body takes full height */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-orange">
+        <a class="navbar-brand text-white" href="index.html">360° Degrees</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+       <div class="background">
+            <h1 class="display-4">360° Degrees</h1>
+            <p class="lead">360° Degrees is a dynamic pizza house poised to redefine the culinary landscape in the vibrant community of Leyte, 360° Degrees is committed to delivering an unparalleled dining experience centered around artisanal pizzas, exceptional service, and a welcoming atmosphere.</p>
+       </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card mb-4" style="background-color: rgba(255, 166, 0, 0.436);">
+                    <img src="image/allcheese.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">All Cheese</h5>
+                        <p class="card-text">All cheese pizza is a timeless classic that celebrates the rich and indulgent flavors of cheese in every bite. Each slice offers a perfect balance of gooey, melted cheese atop a crispy crust, creating a symphony of textures and flavors that is sure to please cheese lovers of all ages.</p>
+                        <a href="#" class="btn btn-primary footer-button">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card mb-4" style="background-color: rgba(255, 166, 0, 0.436);">
+                    <img src="image/hamandcheese.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Ham and Cheese</h5>
+                        <p class="card-text">Ham and cheese, a timeless culinary pairing, come together harmoniously in this classic combination. Thinly sliced ham, typically cooked and seasoned to perfection, meets creamy, melty cheese atop a variety of bread or pastry. With each bite, the savory saltiness of the ham melds seamlessly with the creamy richness of the cheese, creating a satisfying and timeless taste sensation that is sure to delight palates of all ages.</p>
+                        <a href="#" class="btn btn-primary footer-button">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card mb-4" style="background-color: rgba(255, 166, 0, 0.436);">
+                    <img src="image/hamandcheese.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Hawaiian</h5>
+                        <p class="card-text">Hawaiian pizza is a delightful fusion of savory and sweet flavors, combining traditional pizza ingredients with a tropical twist. This iconic pie features a classic pizza base topped with tangy tomato sauce, gooey melted cheese, savory ham, and juicy chunks of pineapple. Whether enjoyed as a quick bite or shared with friends and family, Hawaiian pizza offers a deliciously satisfying culinary experience that transports diners to a tropical paradise with every savory bite.</p>
+                        <a href="#" class="btn btn-primary footer-button">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card mb-4" style="background-color: rgba(255, 166, 0, 0.436);">
+                    <img src="image/bacon.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Bacon and Mushroom</h5>
+                        <p class="card-text">The bacon and mushroom pizza is a mouthwatering blend of savory and earthy flavors that tantalize the taste buds with each bite. This classic pizza features a crispy crust topped with rich tomato sauce, gooey melted cheese, savory bacon strips, and tender slices of earthy mushrooms. The smoky, salty notes of the bacon complement the mushrooms, creating a satisfyingly savory combination that is sure to please even the most discerning palate.</p>
+                        <a href="#" class="btn btn-primary footer-button">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-orange text-white text-center">
+        <div class="row" style="padding-top: 16px;">
+            <div class="col">
+                <p><strong>Address:</strong> <br>Baranggay 84 San Jose, Tacloban City, Leyte, 6500</p>
+            </div>
+            <div class="col">
+                <p><strong>Business Hours:</strong></p>
+
+                <div class="row">
+                    <div class="col">
+                        <p><strong>Weekdays</strong><br>9:00AM - 8:00PM</p>
+                    </div>
+                    <div class="col">
+                        <p><strong>Weekends</strong><br>NOT OPEN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3 mb-3"> <!-- Add margin top and bottom to contain the line -->
+            <hr style="border-top: 1px solid white;">
+        </div>
+        <div class="container p-2">
+            <p class="text-center">© 2024 <strong>360° Degrees</strong>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

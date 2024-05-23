@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact -  360° Degrees</title>
+    <link rel="icon" type="image/x-icon" href="image/pizza.png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bg-orange {
+            background-color: orange !important;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: white;
+        }
+        footer {
+            /* position: fixed; */
+            bottom: 0;
+            width: 100%;
+        }
+       
+        .jumbotron {
+            background: url('image/1.png') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .background {
+            background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+            padding: 10px; /* Add padding to space text from background */
+            border-radius: 10px; /* Add border-radius for rounded corners */
+        }
+        .contact-icon {
+            width: 50px; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 0 auto; /* Center horizontally */
+            margin-bottom: 10px; /* Add margin bottom for spacing */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-orange">
+        <a class="navbar-brand text-white" href="index.html"> 360° Degrees</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="services.html">Feedback</a>
+                </li> -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <div class="background">
+            <h1 class="display-4">Contact Us</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center"> <!-- Center the cards horizontally -->
+            <div class="col-lg-4">
+                <div class="card mb-4" style="background-color: rgba(255, 166, 0, 0.436);">
+                    <img src="image/email (1).png" class="contact-icon" alt="Email Icon" style="margin-top: 20px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Email Us:</h5>
+                        <p class="card-text">360degrees@gmail.com</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-4" style="background-color: rgba(255, 166, 0, 0.436);">
+                    <img src="image/phone-call.png" class="contact-icon" alt="Phone Icon" style="margin-top: 20px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Call Us:</h5>
+                        <p class="card-text">+63945 495 1847</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-orange text-white text-center">
+        <div class="row" style="padding-top: 16px;">
+            <div class="col">
+                <p><strong>Address:</strong> <br>Baranggay 84 San Jose, Tacloban City, Leyte, 6500</p>
+            </div>
+            <div class="col">
+                <p><strong>Business Hours:</strong></p>
+    
+                <div class="row">
+                    <div class="col">
+                        <p><strong>Weekdays</strong><br>9:00AM - 8:00PM</p>
+                    </div>
+                    <div class="col">
+                        <p><strong>Weekends</strong><br>NOT OPEN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3 mb-3"> <!-- Add margin top and bottom to contain the line -->
+            <hr style="border-top: 1px solid white;">
+        </div>
+        <div class="container p-2">
+            <p class="text-center">© 2024 <strong>360° Degrees</strong>. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
